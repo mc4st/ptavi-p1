@@ -17,8 +17,8 @@ def division(ope1, ope2):
     return ope1/ope2
 if __name__ == "__main__":
     try:
-        operando1 = int(sys.argv[1]) # ya que nos muestra una lista con cadenas de        caracteres y la tenemos que pasar a int
-        operando2 = int(sys.argv[3])
+        operando1 = float(sys.argv[1]) # ya que nos muestra una lista con cadenas de        caracteres y la tenemos que pasar a int
+        operando2 = float(sys.argv[3])
         operacion = sys.argv[2]
     except ValueError:
         sys.exit('¡Deben ser números enteros!')
