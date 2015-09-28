@@ -29,4 +29,7 @@ if __name__ == "__main__":
     elif operacion == 'multiplicacion':
         print(multiplicacion(operando1,operando2))
     elif operacion == 'division':
-        print(division(operando1,operando2))
+        if operando2 != 0:
+            print(division(operando1,operando2))
+        else:
+            sys.exit('¡Indeterminación!')
